@@ -1,0 +1,20 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F5C8;
+}
+p{
+    
+    text-align:justify;
+    text-justify:inter-word;
+}
+.container{
+    height:50%;
+    width:50%;
+    position:absolute;
+    top:25%;
+    left:25%;
+}
+.title{
+    color:#219F94;
+    text-align:center;
+}
