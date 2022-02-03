@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation</title>
+</head>
+<body>
+    <p>Créé en 1990, notre entreprise possède 3 unités:</p>
+    <ul>
+        <li>Une unité de filature</li>
+        <li>Une unité de teinture</li>
+    <li>Une unité de traitement sur pièces</li>
+    </ul>
+    <p>Vous pouvez visitez notre siège</p>
+    <a href="siege.html"><img src="..\assets\images\pic1.png" alt="photo"/></a>
+    <br>
+    <br>
+    <div>
+        <p>nous offrons les services suivants :</p>
+        <a href="services.html#service1">Service 1</a>
+        <br>
+        <br>
+        <a href="services.html#service2">Service2</a>
+    </div>
+    <div class="outer">
+                <div class="item"><a href="index.html" class="btn">Acceuil</a></div>
+                <div class="item"><a href="services.html" class="btn">Services</a></div>
+                <div class="item"><a href="mailto:daliselmi30@gmail.com" class="btn">Contact</a></div>
+    </div>
+    <style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+            background-color: #F2F5C8;
+        }
+        .btn {
+            -webkit-border-radius: 5;
+            -moz-border-radius: 5;
+            border-radius: 5px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 20px;
+            background: #219F94;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+          }
+          
+        .btn:hover {
+            background: #C1DEAE;
+            text-decoration: none;
+          }
+        .outer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 2%;
+        }
+    </style>
+</body>
+</html>
